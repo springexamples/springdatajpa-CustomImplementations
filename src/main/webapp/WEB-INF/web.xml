@@ -1,0 +1,25 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>Archetype Created Web Application</display-name>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/applicationContext-jpa.xml</param-value>
+	</context-param>
+
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<servlet>
+		<description>
+		</description>
+		<display-name>AirConditionServlet</display-name>
+		<servlet-name>AirConditionServlet</servlet-name>
+		<servlet-class>demo.servlet.AirConditionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AirConditionServlet</servlet-name>
+		<url-pattern>/AirConditionServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
