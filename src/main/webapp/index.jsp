@@ -4,8 +4,8 @@
 
 	<p>
 	<fieldset>
-		<legend>Add new Air Condition</legend>
-		<a href="AirConditionServlet?action=audit" target="_blank">add</a>
+		<legend>Audit</legend>
+		<a href="AirConditionServlet?action=audit" target="_blank">audit</a>
 	</fieldset>
 	<fieldset>
 		<legend>Add new Air Condition</legend>
