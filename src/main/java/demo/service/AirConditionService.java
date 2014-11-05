@@ -35,4 +35,8 @@ public class AirConditionService {
 		ac.setYear(year);
 		repository.save(ac);
 	}
+
+	public void audit() {
+		repository.audit();
+	}
 }

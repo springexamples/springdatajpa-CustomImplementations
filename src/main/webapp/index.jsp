@@ -5,6 +5,10 @@
 	<p>
 	<fieldset>
 		<legend>Add new Air Condition</legend>
+		<a href="AirConditionServlet?action=audit" target="_blank">add</a>
+	</fieldset>
+	<fieldset>
+		<legend>Add new Air Condition</legend>
 		<a href="AirConditionServlet?action=add" target="_blank">add</a>
 	</fieldset>
 

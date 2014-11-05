@@ -42,6 +42,8 @@ public class AirConditionServlet extends AbstractServlet {
 					&& request.getParameter("id").matches("[0-9]+")) {
 				long id = Long.parseLong(request.getParameter("id"));
 				output = service.getById(id).toString();
+			} else if ("audit".equalsIgnoreCase(action)) {
+				service.audit();
 			}
 		} else {
 			output = "invalid action!";
